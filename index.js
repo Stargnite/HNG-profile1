@@ -2,11 +2,11 @@ const displayedTime = document.querySelector('#time')
 const day = document.querySelector('#day')
 
 const getTime = () => {
-	const time = new Date().toISOString();
-	currentTime = time.substr(11, 8)
-	displayedTime.textContent = currentTime
+	const time = new Date().getTime();
+	
+	displayedTime.textContent = time
 }
-setInterval(getTime, 1000)
+setInterval(getTime, 100)
 
 
 
