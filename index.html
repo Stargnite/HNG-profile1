@@ -9,17 +9,17 @@
   <body>
     <h1 data-testid="slackUserName">Shobam__</h1>
 
-    <img src="./my-pic.jpeg" alt="Shobam" data-testid="slackDisplayImage" />
+    <img src="./my-pic.jpeg" alt="Shobam__" data-testid="slackDisplayImage" />
 
 	<div class="time">
-		<p data-testid="currentDayOfTheWeek"><strong>Current Day:</strong></br> <i>Thursday</i></p>
+		<p><strong>Current Day:</strong></br> <i data-testid="currentDayOfTheWeek" id="day"></i></p>
 	
-		<p data-testid="currentUTCTime"><strong>Time:</strong></br> 23:59:57 PM (UTC)</p>
+		<div><strong>Time (UTC):</strong><p id="time" data-testid="currentUTCTime"></p></div>
 	</div>
 
 	<p data-testid="myTrack" class="track"><strong>Track:</strong> Frontend</p>
 
-	<a href="https://github.com/stargnite" data-testid=“githubURL”>
+	<a href="https://github.com/Stargnite/HNG-profile1" data-testid=“githubURL”>
 		<button>Github URL</button>
 	</a>
 	<script src="./index.js"></script>

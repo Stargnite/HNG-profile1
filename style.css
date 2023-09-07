@@ -17,6 +17,14 @@ img {
 	justify-content: space-around;
 }
 
+.time div {
+	margin-top: 1rem;
+}
+
+#time {
+	margin: 0
+}
+
 .track {
 	margin-top: 3rem;
 }
